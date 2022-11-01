@@ -7,8 +7,23 @@
     <title>Div Sketch</title>
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4c536a6bd5.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <div class="aside">
+        <label for="">Div Sketch</label>
+        <div>
+        <label for="">Grid Size: </label><br>
+        <input type="range" name="range" id="rangeid" max="100" min="2" step="1" oninput="label.textContent = this.value">
+        <label id="rangeLabel" for="range" >16</label>
+        </div>
+        <button onclick="createGrid()">Erase ⟳</button>
+        <p>Copyright © 2022 AmgadSa 
+            <a href="https://github.com/AmgadSa" target="_blank">
+                <i class="fab fa-github" aria-hidden="true"></i></a>
+        </p>
+        <a href="https://www.freepik.com/free-vector/hand-draw-city-skyline-sketch_15645760.htm#query=sketch&position=15&from_view=keyword">Image by Harryarts on Freepik</a>
+    </div>
+    <div class="container"></div>
 </body>
 </html>
